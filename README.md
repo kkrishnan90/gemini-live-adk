@@ -69,7 +69,7 @@ _Low latency, handled directly by the Orchestrator._
 
 > **User**: "Who are you?"
 > **Nomad**: "I'm Nomad, your collaborative travel assistant! I work with a team of specialists to help you plan trips."
-> _(Metric: TTFB ~600ms)_
+
 
 ### Subagent Interaction (Delegation)
 
@@ -78,4 +78,4 @@ _Higher latency, involves tool execution and multi-turn reasoning._
 > **User**: "Find me flights to Tokyo for under $1000 in May."
 > **Nomad**: _[Internal Thought: User needs flights -> Call Flight Specialist]_ > **System**: _[Visual: Active Subagent "Flight Specialist" appears]_ > **Flight Specialist**: _[Tool executes: Checks mock DB]_ -> Returns "ANA, $850, May 20th"
 > **Nomad**: "I found a great option on ANA for $850 departing May 20th. Does that work for you?"
-> _(Metric: TTFB ~1.5s, Subagent Latency ~0.5s)_
+
