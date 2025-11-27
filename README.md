@@ -2,6 +2,9 @@
 
 Nomad is a voice-first collaborative travel assistant built with the **Google Agent Development Kit (ADK)**. It demonstrates **bi-directional voice streaming** (low latency, interruption handling) and **multi-agent orchestration** using Gemini 2.5 Flash.
 
+![Nomad Screenshot 1](assets/nomad_screenshot_1.png)
+![Nomad Screenshot 2](assets/nomad_screenshot_2.png)
+
 ## Architecture
 
 - **Backend**: Python (FastAPI) + Google ADK
