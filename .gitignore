@@ -1,0 +1,18 @@
+# Ignore root files
+ADK-llms.txt
+CLAUDE.md
+GEMINI.md
+PRD.md
+backend.log
+debug_ws.py
+test.aiff
+test.pcm
+.gemini-clipboard
+
+# Ignore backend artifacts
+backend/__pycache__/
+backend/.venv/
+backend/*.pyc
+
+# Ignore system files
+.DS_Store
