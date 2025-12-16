@@ -1,7 +1,7 @@
 import os
 
 # Model Configurations
-ORCHESTRATOR_MODEL = "gemini-live-2.5-flash-preview-native-audio-09-2025"
+ORCHESTRATOR_MODEL = "gemini-live-2.5-flash-native-audio"
 SUBAGENT_MODEL = "gemini-2.5-flash"
 
 # App Configuration
