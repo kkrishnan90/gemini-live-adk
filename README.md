@@ -8,7 +8,7 @@ Nomad is a voice-first collaborative travel assistant built with the **Google Ag
 ## Architecture
 
 - **Backend**: Python (FastAPI) + Google ADK
-  - **Orchestrator**: `NomadConcierge` (`gemini-live-2.5-flash-preview-native-audio-09-2025`) routes tasks.
+  - **Orchestrator**: `NomadConcierge` (`gemini-live-2.5-flash-native-audio`) routes tasks.
   - **Subagents**: `Flight Specialist` and `Lifestyle Specialist` (both use `gemini-2.5-flash`).
 - **Frontend**: React + Vite + WebSockets
   - Real-time audio visualization.
